@@ -205,4 +205,7 @@ div#posters { height: 341px; background-image: url("images/posters.png"); backgr
 /* line 201, style.scss */
 #home h3 { font-size: 2rem; margin: 0 0 2rem; text-align: center; color: #000; }
 
+/* line 209, style.scss */
+#neptunelogo { width: 400px; margin: 0 auto; display: block; }
+
 /*# sourceMappingURL=style.css.map */
