@@ -131,77 +131,79 @@ html, body { height: 100%; }
 body { background-color: #e7e2d4; background-image: url("images/background.jpg"); background-repeat: no-repeat; background-position: bottom center; background-attachment: fixed; font-family: 'Open Sans', sans-serif; font-size: 16px; }
 
 /* line 34, style.scss */
-a { text-decoration: none; border: 0; color: inherit; }
+a { text-decoration: none; font-weight: bold; border: 0; color: #333; }
+/* line 39, style.scss */
+a:hover { color: #666; }
 
-/* line 40, style.scss */
+/* line 44, style.scss */
 #main { width: 820px; min-height: 100%; margin: 0 auto; padding: 0 1rem 210px; background-color: #f6f2ed; position: relative; }
 
-/* line 49, style.scss */
+/* line 53, style.scss */
 #wall_overlay { width: 100%; height: 271px; position: fixed; bottom: 0; background-image: url("images/bottom_overlay.png"); background-position: bottom center; pointer-events: none; }
 
-/* line 60, style.scss */
+/* line 64, style.scss */
 #tickets_social ul { margin: 0; padding: 0; }
-/* line 63, style.scss */
+/* line 67, style.scss */
 #tickets_social ul li { list-style-type: none; display: inline-block; line-height: 2.5rem; margin-right: 1rem; }
-/* line 68, style.scss */
+/* line 72, style.scss */
 #tickets_social ul li a { color: #640325; }
-/* line 70, style.scss */
+/* line 74, style.scss */
 #tickets_social ul li a:hover { color: #950219; }
 
-/* line 78, style.scss */
+/* line 82, style.scss */
 #tickets_link { font-size: 2rem; }
 
-/* line 82, style.scss */
+/* line 86, style.scss */
 .social_icon { font-size: 2rem; }
-/* line 84, style.scss */
+/* line 88, style.scss */
 .social_icon .fa { line-height: 2.5rem; }
 
-/* line 89, style.scss */
+/* line 93, style.scss */
 .headline, h1, h2, h3, h4, h5, h6 { font-family: 'Headline One', sans-serif; text-transform: uppercase; vertical-align: -3%; font-weight: normal; }
 
-/* line 96, style.scss */
+/* line 100, style.scss */
 h1, h2, h3, h4, h5, h6 { color: #950218; }
 
-/* line 100, style.scss */
-#logo { background-color: #640325; margin: 0 -3rem; padding: 1rem 0; }
 /* line 104, style.scss */
+#logo { background-color: #640325; margin: 0 -3rem; padding: 1rem 0; }
+/* line 108, style.scss */
 #logo a { display: block; text-align: center; }
 
-/* line 111, style.scss */
-nav ul { margin: 0; padding: 0; text-align: center; }
 /* line 115, style.scss */
+nav ul { margin: 0; padding: 0; text-align: center; }
+/* line 119, style.scss */
 nav ul li { list-style-type: none; display: inline-block; }
-/* line 118, style.scss */
+/* line 122, style.scss */
 nav ul li a { display: block; font-size: 1.5rem; line-height: 2rem; padding: 0 0.5rem; margin: 0 0.5rem; background-color: #950219; color: #f3ede1; }
-/* line 126, style.scss */
+/* line 130, style.scss */
 nav ul li a:hover { background-color: #f3ede1; color: #950219; }
 
-/* line 135, style.scss */
+/* line 139, style.scss */
 footer { position: absolute; bottom: 120px; font-size: 0.8rem; text-align: center; width: 100%; margin-left: -1rem; }
-/* line 142, style.scss */
+/* line 146, style.scss */
 footer a { font-weight: bold; }
 
-/* line 147, style.scss */
+/* line 151, style.scss */
 img { max-width: 100%; }
 
-/* line 151, style.scss */
-#committee_table { margin: 0 auto; }
-/* line 153, style.scss */
-#committee_table td { padding: 0.2rem; }
 /* line 155, style.scss */
+#committee_table { margin: 0 auto; }
+/* line 157, style.scss */
+#committee_table td { padding: 0.2rem; }
+/* line 159, style.scss */
 #committee_table td.role_title { text-align: right; font-weight: bold; vertical-align: top; }
 
-/* line 163, style.scss */
+/* line 167, style.scss */
 div#posters { height: 341px; background-image: url("images/posters.png"); background-position-x: -50px; position: absolute; width: 100%; left: 0; top: 250px; }
 
-/* line 174, style.scss */
+/* line 178, style.scss */
 #home h1 { font-size: 5rem; margin: 0; text-align: center; color: #000; }
-/* line 180, style.scss */
+/* line 184, style.scss */
 #home h2 { font-size: 3rem; margin: 2rem 0 0; text-align: center; }
-/* line 185, style.scss */
+/* line 189, style.scss */
 #home h3 { font-size: 2rem; margin: 0 0 2rem; text-align: center; color: #000; }
 
-/* line 193, style.scss */
+/* line 197, style.scss */
 #neptunelogo { width: 400px; margin: 0 auto; display: block; }
 
 /*# sourceMappingURL=style.css.map */
