@@ -5,11 +5,15 @@
 
 $textColor : white
 
-@media only screen and (max-width: 1420px)
+@media only screen and (min-width: 1201px)
+  .collapsible
+    @include responsive-font(1vw, 10px)
+
+@media only screen and (max-width: 1200px)
   .collapsible
       display: none !important
 
-@media only screen and (min-width: 1420px)
+@media only screen and (min-width: 1200px)
   .only-on-collapse
       display: none !important
 body

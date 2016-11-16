@@ -1,6 +1,6 @@
 $(window).on("load", function() {
 
-  if ($(window).width() <= 1420) {
+  if ($(window).width() <= 1200) {
     $('.ui.sidebar').sidebar('attach events', '.toc.item');
   }
 
@@ -11,11 +11,11 @@ $(window).on("load", function() {
   setTimeout(function() {
     $('#primaryText').show().addClass('animated fadeInUp');
     //$('#date').show().addClass('animated fadeInUp');
-  }, 2500);
+  }, 1500);
 
   setTimeout(function() {
     $('#date').show().addClass('animated fadeInRight');
-  }, 4500);
+  }, 2500);
 
   $(window).scroll(function() {
     $('#date').addClass('animated fadeOut');
