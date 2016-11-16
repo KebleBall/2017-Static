@@ -1,133 +1,120 @@
-<!-- home.html -->
-<!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Keble Ball 2016</title>
-        <meta name="description" content="Keble Ball, 7th May 2016">
-        <meta name="keywords" content="Keble,Oxford,Ball">
-        <meta name="author" content="Samuel Littley">
-        <link rel="stylesheet" type="text/css" href="/static/style.css" />
-        <link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon-76x76.png">
-        <link rel="icon" type="image/png" href="/static/favicons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/static/favicons/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="/static/favicons/manifest.json">
-        <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#640325">
-        <meta name="apple-mobile-web-app-title" content="Keble Ball 2016">
-        <meta name="application-name" content="Keble Ball 2016">
-        <meta name="msapplication-TileColor" content="#640325">
-        <meta name="theme-color" content="#640325">
-        <!--[if gte IE 9]>
-            <style type="text/css">
-                .gradient {
-                    filter: none;
-                }
-            </style>
-        <![endif]-->
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-          ga('create', 'UA-36232929-1', 'kebleball.com');
-          ga('send', 'pageview');
-        </script>
-    </head>
-    <body>
-        <div id="posters"></div>
-        <div id="neptune_logo_top_right">
-            <a href="http://www.neptunebigideas.com/?usertype=UK%20Private%20Investor&amp;cm_mmc=Consumer-_-keble%20-_-promotional-_-Bigideas" target="_blank">
-                <img src="/static/images/neptune.png" alt="Sponsored by Neptune investment Management" />
-            </a>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="assets/KBlogonew.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <script src="semantic/dist/semantic.min.js"></script>
+    <title>Keble Ball 2017</title>
+  </head>
+  <body>
+    <div class="se-pre-con"></div>
+    <div class="ui vertical sidebar menu"><a href="#" class="active item">Home</a><a href="#theTheory" class="item">The Theory</a><a href="#food" class="item">Food &amp Drink</a><a href="#entertainment" class="item">Entertainment</a><a href="#employment" class="item">Employment</a><a href="#committee" class="item">Committee</a><a href="#sponsorship" class="item">Sponsorship</a><a href="#keble2016" class="item">Keble Ball 2016</a></div>
+    <div class="pusher">
+      <div class="ui inverted vertical masthead center aligned segment landingImageBG">
+        <div class="ui">
+          <div id="navBar" class="ui big secondary inverted borderless menu fixed no-show">
+            <!--a.toc.item-->
+            <!-- img(src="assets/KBlogonew.png", alt="alt")--><a class="toc item only-on-collapse"><i class="sidebar icon"></i></a><a href="#" class="active item collapsible">Home</a><a href="#theTheory" class="item collapsible">The Theory</a><a href="#food" class="item collapsible">Food &amp Drink</a><a href="#entertainment" class="item collapsible">Entertainment</a><a href="#employment" class="item collapsible">Employment</a><a href="#committee" class="item collapsible">Committee</a><a href="#sponsorship" class="item collapsible">Sponsorship</a><a href="#keble2016" class="item collapsible">Keble Ball 2016</a>
+            <div class="right item"><a href="https://www.facebook.com/kebleball2017/" class="item"><i style="margin-left:15px;" class="facebook f icon"></i></a></div><a class="item">Tickets</a>
+          </div>
         </div>
-        <section id="main">
-            <header>
-                <section id="tickets_social">
-                    <ul>
-                        <li id="tickets_link">
-                            <a href="/tickets/" class="headline">Tickets</a>
-                        </li>
-                        <li id="facebook_link" class="social_icon">
-                            <a href="https://www.facebook.com/kebleball2016">
-                                <i class="fa fa-facebook-official"></i>
-                            </a>
-                        </li>
-                        <li id="twitter_link" class="social_icon">
-                            <a href="https://twitter.com/kebleball2016">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li id="instagram_link" class="social_icon">
-                            <a href="https://www.instagram.com/kebleball2016/">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section id="logo">
-                    <a href="/">
-                        <img src="/static/images/logo-white-85px.png" />
-                    </a>
-                </section>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="/food_drink.html" class="headline">
-                                Food &amp; Drink
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/entertainment.html" class="headline">
-                                Entertainment
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/employment.html" class="headline">
-                                Employment
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/sponsorship.html" class="headline">
-                                Sponsorship
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/committee.html" class="headline">
-                                Committee
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/2015.html" class="headline">
-                                Ball 2015
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <section id="content">
-                
-<article id="home">
-    <h2>Keble Ball 2016</h2>
-    <h1>Panopticon</h1>
-    <h3>07052016</h3>
-    <iframe src="//player.vimeo.com/video/147165757?color=640325&amp;badge=0&amp;byline=0&amp;portrait=0&amp;title=0" width="788" height="443" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</article>
-
-            </section>
-            <footer>
-                <section id="copyright">
-                    <p>&copy; 2015- Keble Ball. All rights reserved. <a href="http://www.google.com/recaptcha/mailhide/d?k=01VW2HusQat4KpnmQYJBSfhQ==&amp;c=0pBadqH9ae41gTIaahTM78kkmPpv_-wELjktV6Zs-d0=" target="_blank">Webmaster</a></p>
-                </section>
-            </footer>
-        </section>
-        <div id="wall_overlay">
-            <a href="http://www.neptunebigideas.com/?usertype=UK%20Private%20Investor&amp;cm_mmc=Consumer-_-keble%20-_-promotional-_-Bigideas" target="_blank" id="neptunelogo_footer">
-                <img src="/static/images/neptune_with_background_square.png" alt="Sponsored by Neptune investment Management" />
-            </a>
+        <div style="padding-top:35vh; vertical-align: middle !important;" class="ui container middle center aligned"><a href="http://www.neptunebigideas.com/?usertype=UK%20Private%20Investor&amp;amp;cm_mmc=Consumer-_-keble%20-_-promotional-_-Bigideas" target="_blank"><img src="assets/neptune_white.png" alt="Neptune Investment Mangement" class="landingSponsorLogo">
+            <!--img(src="assets/neptune.png", alt="Neptune Investment Mangement" class="landingSponsorLogo")--></a>
+          <h1 style="opacity:0;" id="primaryText" class="inverted header hidden">The Abyssus Theory</h1>
+          <h2 id="secondaryText">Keble Ball 2017</h2>
+          <h3 style="opacity:0;" id="date">06.05.2017</h3>
+          <!--.ui.huge.inverted.button(style="opacity:0;")#ticketButton Buy Tickets Now <i class="ticket icon" style="margin-left: 15px;"></i>-->
         </div>
-    </body>
+      </div>
+      <div class="ui vertical segment">
+        <div class="ui middle aligned stackable grid">
+          <div id="theTheory" class="row fullRow">
+            <div class="eight wide centered column text">
+              <h1>The Theory</h1>
+              <p>Proposed by Edward Forbes in 1843, the Abyssus theory states that "beyond a depth of 300 fathoms (around 550m), marine life ceases to exist".</p>
+              <p>Join us at Keble Ball 2017 to explore the darkest depths of the abyss.</p>
+            </div>
+          </div>
+          <div id="food" class="row fullRow">
+            <div class="eight wide centered column text">
+              <h1>Food &amp Drink</h1>
+              <p>At Keble Ball 2017, be prepared for our food and drink to plunge you into a sea of delights, as we take you on a global culinary tour, sampling food from each continent and venturing into the ocean, for an array of maritime treats. From savoury to sweet, there will be something for everyone to delight in. Descend into hedonistic excess with the return of our legendary cocktail crescent, where you will be able to excite your taste buds and quench your thirst with our perfectly balanced cocktails. For the ale lovers amongst you, visit our seafarer's bar and sample our range of brewed products. Feel the thrill of the deep in our experience rooms and brace yourself for the dive into the abyss.</p>
+            </div>
+          </div>
+          <div id="entertainment" class="row fullRow">
+            <div class="eight wide centered column text">
+              <h1>Entertainment</h1>
+              <p>A sea of entertainment awaits you at Keble Ball 2017. </p>
+              <p>Over on Hayward Quad, an eclectic mix of Oxford based acts, up-and-coming selectors and cover bands of some of your favourite artists will set the scene for a night of euphoria. </p>
+              <p>On our Pusey Quad, internationally renowned talent spanning all genres combined with a two-channel silent disco will see you through to the early morning. If your feet are tired, wander over to our various stands and installations to relax and enjoy all that Keble Ball has to offer. This will be a fully immersive experience not to be missed.</p>
+            </div>
+          </div>
+          <div id="employment" class="row fullRow">
+            <div class="eight wide centered column text">
+              <h1>Employment</h1>
+              <p>Keble Ball is recruiting. We need you to get involved in the operations of the night and make sure everyone has fun.</p>
+              <p>There are 2 types of position to apply for:</p>
+              <p><strong>Managers</strong>: you will be in charge of small teams, managing either bars or the cellar. These few spots will be given to those with experience. You will be expected to work for the full night.</p>
+              <p><strong>General Staff</strong>: you will help serve food and drink and assist with the logistics of the Ball. You can work half the night – either in the first half or the second half of the Ball - and earn a reduced price ticket. Alternatively you can work the full night and receive payment in return.</p>
+              <p>Please note that you will be required to attend a training session prior to the Ball in 1st or 2nd week of Trinity term.</p>
+              <p>If you are interested in working at the Ball, please email <a href="mailto:employment@kebleball.com?Subject=Keble%20Ball%202017%20Employment%20Enquiry">employment@kebleball.com</a></p>
+            </div>
+          </div>
+          <div id="committee" class="row fullRow">
+            <div class="sixteen wide floated column text">
+              <h1>Committee</h1>
+            </div>
+            <div class="three wide column"></div>
+            <div class="five wide column text committee">
+              <p><strong>Presidents</strong> - Isobel Roberts Rajoo &amp Matthew Jamshed</p>
+              <p><strong>Treasurer</strong> - Robert Weston</p>
+              <p><strong>Logistics</strong> - Edward Armstrong & Oliver Browne</p>
+              <p><strong>Food &amp Drink</strong> - Julia Warszewski, Ludo Findlay, Elizabeth Costello & Laura Tregidgo</p>
+              <p><strong>Entertainment</strong> - Benedict Walker, Daniela Alvarez Garcia & Benjamin Jacob</p>
+              <p><strong>Creative</strong> - Alexa Mackie, Lucinda Kirk & Harriet Fodder</p>
+            </div>
+            <div class="five wide column text committee">
+              <p><strong>Ticketing</strong> - Harry Donald</p>
+              <p><strong>Marketing</strong> - Natalie Clark</p>
+              <p><strong>Security & Contracts</strong> - Frederick Kohlhas</p>
+              <p><strong>Employment</strong> - Katherine Fraser</p>
+              <p><strong>Design</strong> - Kate Weir</p>
+              <p><strong>IT</strong> - Timothy Zakian</p>
+              <p><strong>Sponsorship</strong> - Honor Loveridge & Shakeel Hashim</p>
+            </div>
+            <div class="three wide column"></div>
+          </div>
+          <div id="sponsorship" class="row fullRow">
+            <div style="padding-bottom: 5rem;" class="eight wide centered column text">
+              <h1>Sponsorship</h1><img src="assets/neptune_white.png" alt="food!" class="ui large bordered rounded centered image">
+              <h3>A WARM WELCOME FROM NEPTUNE</h3>
+              <p>Neptune Investment Management is proud to be the Exclusive Sponsor of Keble Ball 2017. Over the five years of our partnership, we have seen the Ball grow to become one of the most popular college balls and are thrilled to work with the Committee again to achieve what we hope will be the most successful event yet.</p>
+              <p>At Neptune, we pride ourselves in nurturing and developing young talent whether this is in our own employees or through our educational, sporting and arts partnerships. We think the hard work, dedication and commitment required to pursue your studies at Oxford deserves to be celebrated. And what a fantastic evening you will have to celebrate your success and future successes.</p>
+              <h3>A FEW WORDS ON WHO WE ARE</h3>
+              <p>Neptune is a young and dynamic investment management company founded in 2002, built on principles of teamwork and partnership. Our expertise lies in equity fund management and our funds can be held within a pension, an ISA, or simply invested in directly. Our focus has always been on delivering excellence, whatever the economic conditions, using a rigorous and unique investment process underpinned by proprietary research.</p>
+              <p>Please note the value of an investment and any income from it can fall as well as rise as a result of market and currency fluctuations and you may not get back the amount originally invested. If you are unsure about the suitability of an investment, please consult an authorised financial adviser.</p>
+              <p>To learn more about Neptune and our investment insights, visit neptunebigideas.com</p>
+              <p>Issued by Neptune Investment Management Limited, 3 Shortlands, W6 8DA. Authorised and regulated by the Financial Conduct Authority (www.fca.org.uk), 25 The North Colonnade, Canary Wharf, London, E14 5HS. FCA registration number 416015.</p>
+            </div>
+          </div>
+          <div id="keble2016" class="row fullRow">
+            <div style="padding-top: 5rem; padding-bottom: 5rem;" class="twelve wide centered column"><div class="ui embed" data-url="https://player.vimeo.com/video/178164753" data-placeholder="assets/kebleBall2016.jpg"></div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="padding: 2em 1em !important;" class="ui inverted vertical footer segment">
+      <h4 class="three wide column">&copy 2016- Keble Ball. All rights reserved.</h4>
+    </div>
+    <script src="js/functions.js"></script>
+    <script src="js/navBarClicker.js"></script>
+    <script src="js/rellax.min.js"></script>
+    <script>var rellax = new Rellax('.rellax');</script>
+  </body>
 </html>

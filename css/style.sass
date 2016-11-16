@@ -1,0 +1,196 @@
+//@import url(https://fonts.googleapis.com/css?family=Roboto+Mono)
+@import url(https://fonts.googleapis.com/css?family=Rye)
+@import url(https://fonts.googleapis.com/css?family=Hammersmith+One)
+@import partials/responsive-font
+
+$textColor : white
+
+@media only screen and (max-width: 1420px)
+  .collapsible
+      display: none !important
+
+@media only screen and (min-width: 1420px)
+  .only-on-collapse
+      display: none !important
+body
+  //font-family: 'Roboto', serif !important
+  font-family: 'Hammersmith One', sans-serif !important
+  color: $textColor
+
+body > .ui.grid
+  width: 100vw
+
+h1,h2,h3
+  font-family: 'Rye', cursive
+  text-transform: uppercase
+  opacity: 0.8
+
+.committee
+  padding-bottom: 2rem
+
+.menu
+  a
+    font-family: 'Rye', cursive
+    text-transform: uppercase !important
+
+.text
+  @include responsive-font(1.8rem, 16px)
+  font-size: 1.8rem
+
+.no-show
+  opacity: 0 !important
+
+.no-padding
+  padding: 0px 0px 0px 0px !important
+
+.no-js #loader
+  display: none
+
+.js #loader
+  display: block
+  position: absolute
+  left: 100px
+  top: 0
+
+.se-pre-con
+	position: fixed
+	left: 0px
+	top: 0px
+	width: 100%
+	height: 100%
+	z-index: 9999
+  // TODO: Pull in this one if we're not on mobile
+	//background: url(../assets/Preloader_2.gif) center no-repeat #fff
+  // Use this one for mobile
+	background: url(../assets/loader2.gif) center no-repeat #fff
+
+.landingSponsorLogo
+  position: absolute
+  right: 10px
+  top: 10px
+  @media only screen and (max-width: 800px)
+    width: 8rem
+  @media only screen and (min-width: 801px)
+    width: 200px
+
+.landingImageBG
+  background-size: cover !important
+  background-image: url(../assets/KB17WEBPAGE.jpg) !important
+  @media only screen and (max-width: 1000px)
+    min-height: 150vh
+  @media only screen and (min-width: 1001px)
+    min-height: 170vw
+  max-height: 165vh //80vh
+  background-position: bottom center !important
+  padding-top: 45vh
+
+  h1
+    font-family: 'Rye', cursive
+    text-transform: uppercase
+    @include responsive-font(4.9vw, 23px)
+  h2
+    font-family: 'Rye', cursive
+    text-transform: uppercase
+    @include responsive-font(3vw, 20px)
+  h3
+    font-family: 'Rye', cursive
+    text-transform: uppercase
+    @include responsive-font(2.5vw, 20px)
+
+.fullRow
+  padding: 0px 0px 0px 0px !important
+  color: $textColor
+  text-align: center
+
+  h1
+    font-family: 'Rye', cursive
+    color: $textColor
+    text-transform: uppercase
+    @include responsive-font(4.5vw, 28px)
+  h2
+    font-family: 'Rye', cursive
+    color: $textColor
+    text-transform: uppercase
+    @include responsive-font(3vw, 20px)
+  h3
+    font-family: 'Rye', cursive
+    color: $textColor
+    text-transform: uppercase
+    @include responsive-font(2vw, 20px)
+
+#primaryText
+
+
+#navBar
+  background-color: rgba(0,0,0,0.9)
+
+#theTheory
+  min-height: 100vh
+  height: auto
+  background-size: cover !important
+  background-image: url(../assets/bg1.jpg)
+  overflow: auto
+
+#food
+  min-height: 100vh
+  height: auto
+  background-size: cover !important
+  background-image: url(../assets/bg2.jpg)
+  overflow: auto
+
+#interstitial
+  .header
+    color: $textColor
+  background-size: cover !important
+  background: lightblue // For browsers that do not support gradient
+  background: -webkit-linear-gradient(lighten(blue, 8), lightblue) //For Safari 5.1 to 6.0
+  background: -o-linear-gradient(lighten(blue, 8), lightblue) // For Opera 11.1 to 12.0
+  background: -moz-linear-gradient(lighten(blue, 8), lightblue) // For Firefox 3.6 to 15
+  background: linear-gradient(lighten(blue, 8), lightblue) // Standard syntax
+  h1
+    font-family: 'Rye', cursive
+    text-transform: uppercase
+  //background-attachment: fixed !important
+
+#entertainment
+  min-height: 100vh
+  height: auto
+  .header
+    color: $textColor
+  padding-top: 2em
+  padding-bottom: 2em
+  color: $textColor
+
+  background-size: cover !important
+  background-image: url(../assets/bg3.jpg)
+
+#employment
+  min-height: 100vh
+  height: auto
+  padding-top: 2em
+  padding-bottom: 2em
+  background-size: cover !important
+  background-image: url(../assets/bg4.jpg)
+
+#committee
+  min-height: 100vh
+  //height: auto
+  background-size: cover !important
+  background-image: url(../assets/bg5.jpg)
+
+#sponsorship
+  min-height: 100vh
+  height: auto
+  .header
+    color: $textColor
+  padding-top: 2em
+  padding-bottom: 2em
+  background-size: cover !important
+  background-image: url(../assets/bg1.jpg)
+  color: $textColor
+
+#keble2016
+  background: black
+
+strong
+  text-transform: uppercase !important
