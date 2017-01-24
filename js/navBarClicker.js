@@ -58,6 +58,13 @@ $(window).on("load", function() {
     offset: '25%'
   });
 
+$('#trailer').waypoint({
+  handler: function(direction) {
+    makeActive('#trailer');
+  },
+  offset: '25%'
+});
+
 $('#keble2016').waypoint({
   handler: function(direction) {
     makeActive('#keble2016');
