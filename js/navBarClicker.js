@@ -62,7 +62,7 @@ $('#trailer').waypoint({
   handler: function(direction) {
     makeActive('#trailer');
   },
-  offset: '25%'
+  offset: '50%'
 });
 
 $('#keble2016').waypoint({
