@@ -26,6 +26,16 @@ html(lang='en')
         ga('create', 'UA-36232929-1', 'kebleball.com');
         ga('send', 'pageview');
   body
+    #fb-root
+    script.
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    
     .se-pre-con
     .ui.vertical.sidebar.menu
       a(href="#").active.item Home
@@ -138,6 +148,12 @@ html(lang='en')
               p To learn more about Neptune and our investment insights, visit <a href="https://www.realworldinvestors.com/">realworldinvestors.com</a>
               p Issued by Neptune Investment Management Limited, 3 Shortlands, W6 8DA. Authorised and regulated by the Financial Conduct Authority (<a href="https://www.fca.org.uk">fca.org.uk</a>), FCA registration number 416015.
 
+          .row.fullRow#keble2016
+            .twelve.wide.centered.column(style="padding-top: 5rem; padding-bottom: 5rem;")
+              //<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fkebleball2017%2Fvideos%2F1921994171420370%2F&show_text=false&appId" width="1500" height="1000" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+              //<div class="fb-video ui 16:9 embed" data-url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fkebleball2017%2Fvideos%2F1921994171420370%2F&height=500&width=500&show_text=false&appId" data-width="500" data-height="500" data-allowfullscreen="true"></div>
+              <div class="fb-video" data-href="https://www.facebook.com/kebleball2017/videos/1921994171420370/" data-width="1500" data-show-text="false"> </div>
+          
           .row.fullRow#keble2016
             .twelve.wide.centered.column(style="padding-top: 5rem; padding-bottom: 5rem;")
               <div class="ui embed" data-url="https://player.vimeo.com/video/178164753" data-placeholder="assets/kebleBall2016.jpg"></div>
